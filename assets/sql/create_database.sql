@@ -8,5 +8,5 @@ create table livros (
     id int auto_increment primary key,
     titulo varchar(225) not null,
     id_genero int not null,
-    foreign key (id_genero) references genero(id) 
+    foreign key (id_genero) references generos(id) 
 );
