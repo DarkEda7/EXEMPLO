@@ -1,7 +1,7 @@
 <?php
 require_once './vendor/autoload.php';
 
-use ExeploPDOMuSQL\MySQLconnection; //PDO
+use ExemploPDOMySQL\MySQLconnection; //PDO
 
 $bd = new MySQLconnection(); //PDO('mysql:host=localhost;dbname=biblioteca', 'root', '');
 

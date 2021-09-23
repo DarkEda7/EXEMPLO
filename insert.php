@@ -1,7 +1,7 @@
 <?php
 require_once './vendor/autoload.php';
 
-use ExeploPDOMuSQL\MySQLconnection;
+use ExemploPDOMySQL\MySQLconnection;
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $bd = new MySQLconnection();
