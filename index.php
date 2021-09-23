@@ -6,12 +6,12 @@ $bd = new PDO('mysql:host=localhost;dbname=biblioteca', 'root', '');
 
 $comando = $bd->prepare('SELECT * FROM generos');
 $comando->execute();
-$generos = $comando->fetchALL(PDO::FETCH_ASSOC);
+$generos = $comando->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
 <!DOCTYPE html>
-<html lan="pt-br">
+<html lang="pt-br">
     <head>
         <meta charset="urf-8">
         <title>biblioteca</title>
