@@ -8,7 +8,7 @@ $bd = new MySQLconnection();
 $genero = null;
 
 if($_SERVER['REQUEST_METHOD'] == 'GET') {
-    $comando = $bd->prepare('SELECT * FROM genero WHERE id = :id');
+    $comando = $bd->prepare('SELECT * FROM generos WHERE id = :id');
     $comando->execute([':id' => $_GET['id']]);
 
     $genero = $comando->fetch(PDO::FETCH_ASSOC);

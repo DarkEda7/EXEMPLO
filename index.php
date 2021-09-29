@@ -15,7 +15,7 @@ $generos = $comando->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="urf-8">
+        <meta charset="utf-8">
         <title>biblioteca</title>
     </head>
     <body>
