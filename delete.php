@@ -29,10 +29,10 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
     </head>
     <body>
         <h1>Remover Gênero</h1>
-        <p>Tem certeza que deseja remover o gênero "<?= $genero['nome'] ?>" />
+        <p>Tem certeza que deseja remover o gênero "<?= $genero['nome'] ?>" ?</p>
         <form action="delete.php" method="post">
             <input type="hidden" name="id" value="<?= $genero['id'] ?>" />
             <button type="submit">Excluir</button>
         </form>
     </body>
-    </html>
+</html>
