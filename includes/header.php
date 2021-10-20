@@ -27,3 +27,7 @@
         </nav>
         <br />
         <main class="container">
+
+        </main>
+    </body>
+    </html>
