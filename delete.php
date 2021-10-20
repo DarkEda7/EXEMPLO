@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
     <body>
         <main class="container">
             <h1>Remover Gênero</h1>
-            <p>Tem certeza que deseja remover o gênero "<?= $genero['nome'] ?>" ?</p>
+            <p>Tem certeza que deseja remover o genero "<?= $genero['nome'] ?>" ?</p>
             <form action="delete.php" method="post">
                 <input type="hidden" name="id" value="<?= $genero['id'] ?>" />
                 <a class="btn btn-secondary" href="index.php">Voltar</a>
