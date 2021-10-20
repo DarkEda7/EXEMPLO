@@ -27,3 +27,5 @@
         </nav>
         <br />
         <main class="container">
+            
+<?php include(' ./includes/footer.php') ?>
