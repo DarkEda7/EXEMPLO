@@ -16,7 +16,7 @@ $_title = 'Novo Gênero';
 
 ?>
 
-<?php include(' ./includes/header.php') ?>
+<?php include('./includes/header.php') ?>
 
             <h1>Novo Gênero</h1>
             <form action="insert.php" method="post">

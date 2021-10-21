@@ -21,7 +21,7 @@ $_tilte ='Remover Gênero';
 
 ?>
 
-<?php include(' ./includes/header.php') ?>
+<?php include('./includes/header.php') ?>
 
             <h1>Remover Gênero</h1>
             <p>Tem certeza que deseja remover o gênero "<?= $genero['nome'] ?>" ?</p>

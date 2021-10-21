@@ -14,7 +14,7 @@ $_title ='Gêneros';
 
 ?>
 
-<?php include('./incluides/header.php') ?>
+<?php include('./includes/header.php') ?>
 
             <a class="btn btn-primary" href="insert.php">Novo Gênero</a>
             <table class="table">

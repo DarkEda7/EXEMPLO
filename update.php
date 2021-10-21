@@ -23,7 +23,7 @@ $_title = 'Editar Gênero';
 
 ?>
 
-<?php include(' ./includes/header.php') ?>
+<?php include('./includes/header.php') ?>
 
         <h1>Editar Gênero</h1>
         <form action="update.php" method="post">
