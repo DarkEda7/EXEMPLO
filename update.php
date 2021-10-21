@@ -37,4 +37,4 @@ $_title = 'Editar Gênero';
             <button class="btn btn-success" type="submit">Salvar</button>
         </form>
 
-<?php include(' ./includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>

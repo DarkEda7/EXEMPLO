@@ -32,4 +32,4 @@ $_tilte ='Remover Gênero';
                 <button class="btn btn-success" type="submit">Excluir</button>
             </form>
 
-<?php include(' ./includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>
