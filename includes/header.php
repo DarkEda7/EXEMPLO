@@ -26,4 +26,4 @@
             </div>
         </nav>
         <br />
-        <main class="container">
+        <main class="container">  
